@@ -7,7 +7,10 @@ import { AuthLibService } from './auth-lib.service';
     <p>
       User: {{user}}
     </p>
-  `
+  `,
+  styles: [`
+    p { color: blue }
+  `]
 })
 export class AuthLibComponent implements OnInit {
 
